@@ -35,7 +35,7 @@ LAST	P171	Q2963928
 LAST	P1746	"7690E036-F8BD-4B62-A7BB-EF9DD1D6DE87"
 ```
 
-     * Example: [19897577](https://www.wikidata.org/wiki/19897577)
+   * Example: [19897577](https://www.wikidata.org/wiki/19897577)
 ```
 CREATE
 LAST	Len	"Meteorona"
@@ -47,7 +47,7 @@ LAST	P171	Q19897576
 LAST	P1746	"E3AA7CD7-8DE7-4BEE-9151-2D6EAAD54793"
 ```
 
-     * Example: [19945831](https://www.wikidata.org/wiki/19945831)
+   * Example: [19945831](https://www.wikidata.org/wiki/19945831)
 ```
 CREATE
 LAST	Len	"Xenoderus basquini"
