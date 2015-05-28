@@ -1,9 +1,9 @@
 # About
-This file collects examples for using [Quick statements](http://tools.wmflabs.org/wikidata-todo/quick_statements.php) to create or edit Wikidata.
+This file collects examples for using [Quick statements](http://tools.wmflabs.org/wikidata-todo/quick_statements.php) to create or edit Wikidata. For instructions, see the "How to" section there.
 
 # Creating an item
 * Make sure it does not already exist
-* Adapt the following code snippets accordingly:
+* Adapt the following code snippets accordingly (note the separation by tabs):
    * For an item about a journal article
 ```
 CREATE
