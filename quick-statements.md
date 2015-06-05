@@ -4,7 +4,7 @@ This file collects examples for using [Quick statements](http://tools.wmflabs.or
 # Creating an item
 * Make sure it does not already exist
 * Adapt the following code snippets accordingly (note the separation by tabs):
-   * For an item about a scientific article ([Q13442814](https://www.wikidata.org/wiki/Q13442814), with [P31](https://www.wikidata.org/wiki/Property:P31), [P1433](https://www.wikidata.org/wiki/Property:P1433), [P1476](https://www.wikidata.org/wiki/Property:P1476))
+   * For an item about a scientific article ([Q13442814](https://www.wikidata.org/wiki/Q13442814)), with [P31](https://www.wikidata.org/wiki/Property:P31), [P1433](https://www.wikidata.org/wiki/Property:P1433), [P1476](https://www.wikidata.org/wiki/Property:P1476), [Q219980](https://www.wikidata.org/wiki/Q219980)
 ```
 CREATE
 LAST	Len	"One hundred and one new species of Trigonopterus weevils from New Guinea"
