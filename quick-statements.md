@@ -4,7 +4,7 @@ This file collects examples for using [Quick statements](http://tools.wmflabs.or
 # Creating an item
 * Make sure it does not already exist
 * Adapt the following code snippets accordingly (note the separation by tabs):
-   * For an item about a journal article
+   * For an item about a scientific article ([Q13442814](https://www.wikidata.org/wiki/Q13442814), with [P31](https://www.wikidata.org/wiki/Property:P31), [P1433](https://www.wikidata.org/wiki/Property:P1433), [P1476](https://www.wikidata.org/wiki/Property:P1476))
 ```
 CREATE
 LAST	Len	"One hundred and one new species of Trigonopterus weevils from New Guinea"
@@ -13,7 +13,7 @@ LAST	P31	Q13442814
 LAST	P1433	Q219980
 LAST	P1476	en:"One hundred and one new species of Trigonopterus weevils from New Guinea"
 ```
-   * For an item about an author of a journal article
+   * For an item about an author of a journal article (with [P31](https://www.wikidata.org/wiki/Property:P31), [P106](https://www.wikidata.org/wiki/Property:P106), [Q5](https://www.wikidata.org/wiki/Q5), [Q1650915](https://www.wikidata.org/wiki/Q1650915), [Q482980](https://www.wikidata.org/wiki/Q482980))
 ```
 CREATE
 LAST	Len	"Cahyo Rahmadi"
@@ -23,7 +23,7 @@ LAST	P106	Q1650915
 LAST	P106	Q482980
 ```
    * For items about a taxon
-     * Example: [Q19897576](https://www.wikidata.org/wiki/Q19897576)
+     * Example: [Q19897576](https://www.wikidata.org/wiki/Q19897576), with [P31](https://www.wikidata.org/wiki/Property:P31), [P105](https://www.wikidata.org/wiki/Property:P105), [P225](https://www.wikidata.org/wiki/Property:P225), [P171](https://www.wikidata.org/wiki/Property:P171), [P1746](https://www.wikidata.org/wiki/Property:P1746), [Q16521](https://www.wikidata.org/wiki/Q16521), [Q35409](https://www.wikidata.org/wiki/Q35409), [Q2963928](https://www.wikidata.org/wiki/Q2963928)
 ```
 CREATE
 LAST	Len	"Chiropsellidae"
