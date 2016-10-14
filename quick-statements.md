@@ -4,7 +4,7 @@ This file collects examples for using [Quick statements](http://tools.wmflabs.or
 # Creating an item
 * Make sure it does not already exist
 * Adapt the following code snippets accordingly (note the separation by tabs):
-   * For an item about a scientific article ([Q13442814](https://www.wikidata.org/wiki/Q13442814)), with [P31](https://www.wikidata.org/wiki/Property:P31), [P1433](https://www.wikidata.org/wiki/Property:P1433), [P1476](https://www.wikidata.org/wiki/Property:P1476), [Q219980](https://www.wikidata.org/wiki/Q219980)
+   * For an item about a scientific article ([Q13442814](https://www.wikidata.org/wiki/Q13442814)), with [P31](https://www.wikidata.org/wiki/Property:P31), [P1433](https://www.wikidata.org/wiki/Property:P1433), [P1476](https://www.wikidata.org/wiki/Property:P1476), [Q219980](https://www.wikidata.org/wiki/Q219980). Note that [Source, M.D.](https://tools.wmflabs.org/sourcemd/?) automates the process for scientific articles that have at least one of (DOI/PMID/PMCID).
 ```
 CREATE
 LAST	Len	"One hundred and one new species of Trigonopterus weevils from New Guinea"
@@ -13,7 +13,7 @@ LAST	P31	Q13442814
 LAST	P1433	Q219980
 LAST	P1476	en:"One hundred and one new species of Trigonopterus weevils from New Guinea"
 ```
-   * For an item about an author of a journal article (with [P31](https://www.wikidata.org/wiki/Property:P31), [P106](https://www.wikidata.org/wiki/Property:P106), [Q5](https://www.wikidata.org/wiki/Q5), [Q1650915](https://www.wikidata.org/wiki/Q1650915), [Q482980](https://www.wikidata.org/wiki/Q482980))
+   * For an item about an author of a journal article (with [P31](https://www.wikidata.org/wiki/Property:P31), [P106](https://www.wikidata.org/wiki/Property:P106), [Q5](https://www.wikidata.org/wiki/Q5), [Q1650915](https://www.wikidata.org/wiki/Q1650915), [Q482980](https://www.wikidata.org/wiki/Q482980)). Note that not every author of a scientific article can or should be represented as an item (which would translate into a [P50](https://www.wikidata.org/wiki/Property:P50) statement on the item of the article) &mdash; for most authors, a representation of their name string would be the way to go (i.e. by adding a [P2093](https://www.wikidata.org/wiki/Property:P2093) statement to the item of the article; Source, M.D. does this automatically).
 ```
 CREATE
 LAST	Len	"Cahyo Rahmadi"
